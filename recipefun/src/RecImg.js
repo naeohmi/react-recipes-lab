@@ -4,8 +4,8 @@ import './App.css';
 class RecImg extends Component {
   render() {
     return (
-      <div>
-          <img src="tikka.jpg" className="RecImg-pic" alt="logo" />
+      	<div className="RecImg">
+          <img src={'/assets/images/tikka.jpg'} className="tikka" />
         </div>
     );
   }

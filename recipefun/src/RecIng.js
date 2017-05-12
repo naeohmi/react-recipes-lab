@@ -5,7 +5,7 @@ class RecIng extends Component {
   render() {
     return (
       <div className="RecIng">
-          <h2>Ingredients</h2>
+          <h1>Ingredients</h1>
           <ul>
           <li>6 garlic cloves, finely grated</li>
           <li>4 teaspoons finely grated peeled ginger</li>
