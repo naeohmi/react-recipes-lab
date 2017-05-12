@@ -17,8 +17,12 @@ ReactDOM.render(
   <RecImg />
   <RecIng />
   <RecPrep />
-  <MoreRecipes />
-  <Footer />
+ <MoreRecipes 
+        url1="#" recipe1="Tikka Masala"
+        url2="#" recipe2="Eggs Benedict" 
+        url3="#" recipe3="Crawfish Etouffee" 
+        url4="#" recipe4="Swedish Meatballs" />
+        <Footer name="John Doe"/>,
   </div>,
 
   document.getElementById('root')
