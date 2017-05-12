@@ -1,12 +1,15 @@
 .Header {
   text-align: center;
 }
-
 .Title {
   background-color: black;
   color: white;
+  font-family: "Times-New-Roman";
+  padding: 5px;
 }
-
+.Title p {
+    font-style: italic;
+}
 .details {
   border: 1px solid black;
 }
@@ -14,10 +17,45 @@
   text-decoration: none;
   list-style: none;
 }
-
 .tikka{
   float : right;
 }
 .details li {
-  border: 0.5px solid gray;
+  border: 0.25px solid gray;
+  padding: 10px;
+  font-family: "Times-New-Roman";
+}
+.Footer {
+    background-color: #AAAAAA;
+    color: #FFFFFF;
+    padding: 0.5px;
+}
+h6 {
+    text-align: center;
+    font-size: 14px;
+}
+.MoreRecipes {
+    background-color: #EDEDED;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.Nav {
+    padding: 10px;
+}
+.Nav ul {
+    list-style: none;
+}
+.Nav li {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 12px;
+    border: .5px solid #AAAAAA;
+}
+.Nav li:hover {
+    background-color: #EDEDED;
+}
+.morerec {
+    padding: 10px 0 0 50px;
 }
