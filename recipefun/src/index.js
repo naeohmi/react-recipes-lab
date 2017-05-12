@@ -5,6 +5,8 @@ import Header from './Header.js';
 import RecImg from './RecImg';
 import RecIng from './RecIng';
 import RecPrep from './RecPrep';
+import MoreRecipes from './MoreRecipes';
+import Footer from './Footer';
 import './index.css';
 
 ReactDOM.render(
@@ -15,6 +17,8 @@ ReactDOM.render(
   <RecImg />
   <RecIng />
   <RecPrep />
+  <MoreRecipes />
+  <Footer />
   </div>,
 
   document.getElementById('root')
